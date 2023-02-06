@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> to_do_list </title>
+        <link rel="stylesheet" href="todo.css">
+    </head>
+<body>
+
+    <div class="header">
+        My to do list
+    </div>
+    <div class="input">
+        
+        <form>
+            <label for="ft"><b>Title</b></label>
+            <input type="text" class="inp1" id="ft" name="ft" placeholder="Title...">
+            <label for="fd"><b>Description</b></label>
+            <input type="text" class="inp2" id="fd" name="fd" placeholder="Description...">
+          </form>
+          <div id="addb">
+            <button type="button" onclick=f1()>Add</button> 
+          </div>
+          <div id="cancelb">
+            <button type="button" onclick=f2()>Cancel</button>
+          </div>
+
+          
+    </div>
+    <div class="whole">
+        <div id="first">
+            <ul id="todo">
+            <li> <B>
+                <I> This is list 1</I> </B> </li>
+            </ul>
+        </div>
+        <div id="second">
+            <ul id="todo2">
+            <li > <B> <I> This is list 2</I></B>  </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+<script src="todojs.js"></script>
+</body>
+</html>
